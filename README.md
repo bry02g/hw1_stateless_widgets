@@ -25,7 +25,7 @@ You will need to change font size, color, weight, and style.
 
 ## Question 3: Icons
 
-You will be styling and adding social media inspireded icons.
+You will be styling and adding social media inspireded icons. I have provide the Insta icons as an example.
 
 <br>
 
@@ -37,6 +37,9 @@ You will be styling and adding social media inspireded icons.
 ## Question 4: Buttons
 
 **NOTE: Buttons must have onPressed: (){} otherwise they will appear disabled.**
+
+You will need to add a icon, raised, and a flat buttons.
+I have provided the floating action button which is part of the scaffold.
 
 [Icon Button Flutter Docs](https://api.flutter.dev/flutter/material/IconButton-class.html)
 
@@ -52,6 +55,8 @@ You will be styling and adding social media inspireded icons.
 ## Question 5: Inputs
 
 **NOTE: Checkboxes/Switches must have onChanged: (value){} otherwise they will appear disabled.**
+
+You will need to add a text field, checkboxes in there checked/unchecked state, and switches in there on/off state.
 
 [Text Field Flutter Docs](https://flutter.dev/docs/cookbook/forms/text-input)
 
