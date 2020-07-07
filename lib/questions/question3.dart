@@ -16,34 +16,72 @@ class Question3 extends StatelessWidget {
                 Navigator.pop(context);
               },
             ),
-            title: Text('Buttons'),
+            title: Text('Icons'),
           ),
-           floatingActionButton: FloatingActionButton(
-             child: Text("FAB"),
-             onPressed: (){},
-             backgroundColor: Colors.green,
-            ),
           body: Center(
             child: Padding(
               padding: const EdgeInsets.all(8.0),
               child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
-                    IconButton(
-                      icon: Icon(Icons.bluetooth, size: 40, color: Colors.blue,),
-                    
-                      onPressed: () {},
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: <Widget>[
+                        Icon(
+                          Icons.favorite_border,
+                          size: 40,
+                        ),
+                        Icon(
+                          Icons.favorite,
+                          size: 40,
+                          color: Colors.red,  )
+                      ],
                     ),
-                    RaisedButton(
-                      child: Text("Raised Button"),
-                     onPressed: () {}),
-                    FlatButton(
-                      onPressed: (){}, 
-                      child: Text("Flat Button"))
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: <Widget>[
+                        Icon(
+                          Icons.thumb_down,
+                          size: 40,
+                          color: Colors.grey),
+                        Icon(
+                          Icons.thumb_up,
+                          size: 40,
+                          color: Colors.blue)
+                      ],
+                    ),
+  
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: <Widget>[
+                        Icon(
+                          Icons.arrow_downward,
+                          size: 40,
+                          color: Colors.purple
+                        ),
+                        Icon(
+                          Icons.arrow_upward,
+                          size: 40,
+                          color: Colors.deepOrange
+                        )
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: <Widget>[
+                        Icon(
+                          Icons.send,
+                          size: 40,
+                          color: Colors.red),
+                        Icon(
+                          Icons.mode_comment,
+                          size: 40,
+                          color: Colors.lightBlue)
+                      ],
+                    ),
                   ]),
             ),
           )),
-          
     );
   }
 }

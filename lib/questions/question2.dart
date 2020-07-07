@@ -16,7 +16,7 @@ class Question2 extends StatelessWidget {
                 Navigator.pop(context);
               },
             ),
-            title: Text('Icons'),
+            title: Text('Texts'),
           ),
           body: Center(
             child: Padding(
@@ -24,61 +24,29 @@ class Question2 extends StatelessWidget {
               child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: <Widget>[
-                        Icon(
-                          Icons.favorite_border,
-                          size: 40,
-                        ),
-                        Icon(
-                          Icons.favorite,
-                          size: 40,
-                          color: Colors.red,  )
-                      ],
+                    Text(
+                      'Make me 35px big',
+                      style: TextStyle(
+                        fontSize: 35,
+                      ),
                     ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: <Widget>[
-                        Icon(
-                          Icons.thumb_down,
-                          size: 40,
-                          color: Colors.grey),
-                        Icon(
-                          Icons.thumb_up,
-                          size: 40,
-                          color: Colors.blue)
-                      ],
-                    ),
-  
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: <Widget>[
-                        Icon(
-                          Icons.arrow_downward,
-                          size: 40,
-                          color: Colors.purple
-                        ),
-                        Icon(
-                          Icons.arrow_upward,
-                          size: 40,
-                          color: Colors.deepOrange
-                        )
-                      ],
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: <Widget>[
-                        Icon(
-                          Icons.send,
-                          size: 40,
-                          color: Colors.red),
-                        Icon(
-                          Icons.mode_comment,
-                          size: 40,
-                          color: Colors.lightBlue)
-                      ],
-                    ),
+                    Text('Make me green and 30px big',
+                        style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.green,
+                        )),
+                    Text('Make me bold and 25px big',
+                        style: TextStyle(
+                          fontSize: 25,
+                          fontWeight: FontWeight.bold)),
+                    Text('Make me italicized and 20px big',
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontStyle: FontStyle.italic)),
+                    Text('Make my background red and 15px big',
+                        style: TextStyle(
+                          fontSize: 15,
+                          backgroundColor: Colors.red))
                   ]),
             ),
           )),

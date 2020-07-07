@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hw1/questions/question1.dart';
 import 'package:hw1/questions/question2.dart';
 import 'package:hw1/questions/question3.dart';
+import 'package:hw1/questions/question4.dart';
 
 void main() {
   runApp(MyApp());
@@ -25,8 +26,8 @@ class MainPage extends StatelessWidget {
         child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              MaterialButton(
-                child: Text('Question 1'),
+              RaisedButton(
+                child: Text('Question 1: Scaffold/App Bar'),
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -34,8 +35,8 @@ class MainPage extends StatelessWidget {
                   );
                 },
               ),
-              MaterialButton(
-                child: Text('Question 2'),
+              RaisedButton(
+                child: Text('Question 2: Texts'),
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -43,12 +44,21 @@ class MainPage extends StatelessWidget {
                   );
                 },
               ),
-              MaterialButton(
-                child: Text('Question 3'),
+              RaisedButton(
+                child: Text('Question 3: Icons'),
                 onPressed: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => Question3()),
+                  );
+                },
+              ),
+              RaisedButton(
+                child: Text('Question 4: Buttons'),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Question4()),
                   );
                 },
               ),

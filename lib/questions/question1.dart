@@ -16,39 +16,28 @@ class Question1 extends StatelessWidget {
                 Navigator.pop(context);
               },
             ),
-            title: Text('Texts'),
+            title: Text('Search Bar'),
+            actions: <Widget>[
+              IconButton(
+                icon: Icon(
+                  Icons.search,
+                  color: Colors.white,
+                  )
+              ),
+            ],
           ),
           body: Center(
             child: Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: <Widget>[
-                    Text(
-                      'Make me 35px big',
-                      style: TextStyle(
-                        fontSize: 35,
-                      ),
-                    ),
-                    Text('Make me green and 30px big',
-                        style: TextStyle(
-                          fontSize: 30,
-                          color: Colors.green,
-                        )),
-                    Text('Make me bold and 25px big',
-                        style: TextStyle(
-                          fontSize: 25,
-                          fontWeight: FontWeight.bold)),
-                    Text('Make me italicized and 20px big',
-                        style: TextStyle(
-                          fontSize: 20,
-                          fontStyle: FontStyle.italic)),
-                    Text('Make my background red and 15px big',
-                        style: TextStyle(
-                          fontSize: 15,
-                          backgroundColor: Colors.red))
-                  ]),
-            ),
+              padding: const EdgeInsets.only(left: 20, right: 20),
+              child: Text(
+                'Change the title of the app bar and add a search Icon on the right side.',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: 20,
+
+                ),
+                ),
+            )
           )),
     );
   }
