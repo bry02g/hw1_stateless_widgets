@@ -30,8 +30,9 @@ class Question5 extends StatelessWidget {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
-                        // ADD CHECKBOXES IN HERE FOR WHEN VALUE IS TRUE/FALSE
-                        // AND ONE FOR WHEN TRISTATE IS TRUE
+                        // ADD CHECKBOXES WITH A VALUE OF TRUE (checked)
+
+                        // ADD CHECKBOXES WITH A VALUE OF FALSE (unchecked)
               
                       ],
                     ),
@@ -41,7 +42,9 @@ class Question5 extends StatelessWidget {
                       children: <Widget>[
 
 
-                        // ADD SWITCHES IN HERE FOR WHEN VALUE: IS TRUE/FALSE
+                        // ADD SWITCH WITH A VALUE OF TRUE (on)
+
+                        // ADD SWITCH WITH A VALUE OF FALSE (off)
                      
 
 

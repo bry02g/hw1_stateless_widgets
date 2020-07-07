@@ -37,7 +37,7 @@ NOTE: Switches/Checkboxes must have onChanged: (value){} otherwise they will app
 
 ## Question 6: Images
 For this question you will need to add and image from a url.
-Heres a cute Baby Yoda you can use.
+Here's a cute Baby Yoda you can use.
 
 <img src="https://i.insider.com/5e32f2a324306a19834af322?width=1800&format=jpeg&auto=webp" width="25%">
 
