@@ -40,43 +40,28 @@ class Question3 extends StatelessWidget {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
-                        Icon(
-                          Icons.thumb_down,
-                          size: 40,
-                          color: Colors.grey),
-                        Icon(
-                          Icons.thumb_up,
-                          size: 40,
-                          color: Colors.blue)
+
+                        // ADD FB ICONS HERE
+
+
                       ],
                     ),
   
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
-                        Icon(
-                          Icons.arrow_downward,
-                          size: 40,
-                          color: Colors.purple
-                        ),
-                        Icon(
-                          Icons.arrow_upward,
-                          size: 40,
-                          color: Colors.deepOrange
-                        )
+                        
+                        // ADD REDDIT ICONS HERE
+
                       ],
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
-                        Icon(
-                          Icons.send,
-                          size: 40,
-                          color: Colors.red),
-                        Icon(
-                          Icons.mode_comment,
-                          size: 40,
-                          color: Colors.lightBlue)
+                        
+
+                        // ADD SNAP ICONS HERE
+
                       ],
                     ),
                   ]),

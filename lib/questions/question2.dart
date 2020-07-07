@@ -26,27 +26,19 @@ class Question2 extends StatelessWidget {
                   children: <Widget>[
                     Text(
                       'Make me 35px big',
-                      style: TextStyle(
-                        fontSize: 35,
-                      ),
                     ),
-                    Text('Make me green and 30px big',
-                        style: TextStyle(
-                          fontSize: 30,
-                          color: Colors.green,
-                        )),
-                    Text('Make me bold and 25px big',
-                        style: TextStyle(
-                          fontSize: 25,
-                          fontWeight: FontWeight.bold)),
-                    Text('Make me italicized and 20px big',
-                        style: TextStyle(
-                          fontSize: 20,
-                          fontStyle: FontStyle.italic)),
-                    Text('Make my background red and 15px big',
-                        style: TextStyle(
-                          fontSize: 15,
-                          backgroundColor: Colors.red))
+                    Text(
+                      'Make me green and 30px big',
+                    ),
+                    Text(
+                      'Make me bold and 25px big',
+                    ),
+                    Text(
+                      'Make me italicized and 20px big',
+                    ),
+                    Text(
+                      'Make my background red and 15px big',
+                    )
                   ]),
             ),
           )),

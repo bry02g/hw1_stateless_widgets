@@ -24,28 +24,29 @@ class Question5 extends StatelessWidget {
               child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    // ADD TEXT FIELDS IN HERE
-                    TextField(),
+                    // ADD TEXT FIELD IN HERE
+
                     
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
-                        // ADD CHECKBOXES IN HERE
-                        Checkbox(
-                          value: false,
-                          onChanged: (value){},
-                        ),
-                        Checkbox(value: true, onChanged: (value){}),
-                        Checkbox(tristate: true, value: null, onChanged: (value){}),
+                        // ADD CHECKBOXES IN HERE FOR WHEN VALUE IS TRUE/FALSE
+                        // AND ONE FOR WHEN TRISTATE IS TRUE
+              
                       ],
                     ),
 
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
-                        // ADD SWITCHES IN HERE
-                        Switch(value: false, onChanged: (value){}),
-                        Switch(value: true, onChanged: (value){})
+
+
+                        // ADD SWITCHES IN HERE FOR WHEN VALUE: IS TRUE/FALSE
+                     
+
+
+
+
                       ],
                     )
                   ]),

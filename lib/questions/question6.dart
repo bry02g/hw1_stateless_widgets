@@ -19,11 +19,11 @@ class Question6 extends StatelessWidget {
             title: Text('Images'),
           ),
           body: Center(
+
             // ADD IMAGE AS A CHILD OF CENTER
-            child: Image.network(
-              'https://i.insider.com/5e32f2a324306a19834af322?width=1800&format=jpeg&auto=webp',
-            ),
+            child: null,
           )),
+          
     );
   }
 }

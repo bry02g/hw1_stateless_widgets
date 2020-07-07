@@ -18,6 +18,9 @@ class Question4 extends StatelessWidget {
             ),
             title: Text('Buttons'),
           ),
+
+          // Floating Action button is a child of the Scaffold
+
            floatingActionButton: FloatingActionButton(
              child: Text("FAB"),
              onPressed: (){},
@@ -29,17 +32,21 @@ class Question4 extends StatelessWidget {
               child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
-                    IconButton(
-                      icon: Icon(Icons.bluetooth, size: 40, color: Colors.blue,),
+                    // ADD ICON BUTTON HERE
+
+
+
                     
-                      onPressed: () {},
-                    ),
-                    RaisedButton(
-                      child: Text("Raised Button"),
-                     onPressed: () {}),
-                    FlatButton(
-                      onPressed: (){}, 
-                      child: Text("Flat Button"))
+                    // ADD RAISED BUTTON HERE
+
+
+
+
+                    // ADD FLAT BUTTON HERE
+
+
+
+
                   ]),
             ),
           )),

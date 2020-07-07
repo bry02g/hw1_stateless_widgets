@@ -9,7 +9,8 @@ A scaffold with a title has been provided all you need to do is change the title
 <img src="https://github.com/bry02g/hw1_stateless_widgets/blob/master/screenshots/question1.png" width="40%">
 ## Question 2: Texts
 
-You will need to change font size, color, weight, style.
+You will need to change font size, color, weight, and style.
+
 <br>
 
 <img src="https://github.com/bry02g/hw1_stateless_widgets/blob/master/screenshots/question2.png" width="40%">
@@ -24,7 +25,7 @@ You will be styling and adding social media inspireded icons.
 
 ## Question 4: Buttons
 
-NOTE: 
+NOTE: Buttons must have onPressed: (){} otherwise they will appear disabled.
 
 <img src="https://github.com/bry02g/hw1_stateless_widgets/blob/master/screenshots/question4.png" width="40%">
 
@@ -32,7 +33,7 @@ NOTE:
 
 <img src="https://github.com/bry02g/hw1_stateless_widgets/blob/master/screenshots/question5.png" width="40%">
 
-NOTE:
+NOTE: Switches/Checkboxes must have onChanged: (value){} otherwise they will appear disabled.
 
 ## Question 6: Images
 For this question you will need to add and image from a url.
