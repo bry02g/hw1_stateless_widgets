@@ -48,7 +48,7 @@ You will be styling and adding social media inspireded icons. I have provide the
 
 **NOTE: Buttons must have onPressed: (){} otherwise they will appear disabled.**
 
-You will need to add a icon, raised, and flat buttons.
+You will need to add  icon, raised, and flat buttons.
 I have provided the floating action button which is part of the scaffold.
 
 [Icon Button Flutter Docs](https://api.flutter.dev/flutter/material/IconButton-class.html)
