@@ -1,5 +1,15 @@
 # hw1
 
+The objective for this homework is to add fundemental Flutter widgets for each of the questions so that they match the screenshots provided.
+
+All you modifications/changes will go under:
+lib/questions/
+
+you will change question#.dart files.
+
+the starting point for the whole application is: 
+lib/main.dart
+
 ## Question 1: App Bar
 
 A scaffold with a title has been provided all you need to do is change the title and add a search icon on the right side.
@@ -38,7 +48,7 @@ You will be styling and adding social media inspireded icons. I have provide the
 
 **NOTE: Buttons must have onPressed: (){} otherwise they will appear disabled.**
 
-You will need to add a icon, raised, and a flat buttons.
+You will need to add a icon, raised, and flat buttons.
 I have provided the floating action button which is part of the scaffold.
 
 [Icon Button Flutter Docs](https://api.flutter.dev/flutter/material/IconButton-class.html)
