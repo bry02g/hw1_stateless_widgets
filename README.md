@@ -42,6 +42,8 @@ Heres a cute Baby Yoda you can use.
 
 URL: "https://i.insider.com/5e32f2a324306a19834af322?width=1800&format=jpeg&auto=webp"
 
+<img src="https://github.com/bry02g/hw1_stateless_widgets/blob/master/screenshots/question6.png" width="40%">
+
 
 
 
