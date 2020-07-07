@@ -4,6 +4,7 @@ import 'package:hw1/questions/question2.dart';
 import 'package:hw1/questions/question3.dart';
 import 'package:hw1/questions/question4.dart';
 import 'package:hw1/questions/question5.dart';
+import 'package:hw1/questions/question6.dart';
 
 void main() {
   runApp(MyApp());
@@ -94,7 +95,7 @@ class MainPage extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => Question4()),
+                      MaterialPageRoute(builder: (context) => Question6()),
                     );
                   },
                 ),

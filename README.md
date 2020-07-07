@@ -24,17 +24,23 @@ You will be styling and adding social media inspireded icons.
 
 ## Question 4: Buttons
 
-<br>
-
 NOTE: 
+
 <img src="https://github.com/bry02g/hw1_stateless_widgets/blob/master/screenshots/question4.png" width="40%">
 
 ## Question 5: Inputs
 
 <img src="https://github.com/bry02g/hw1_stateless_widgets/blob/master/screenshots/question5.png" width="40%">
-NOTE: 
-## Question 6: Images
 
+NOTE:
+
+## Question 6: Images
+For this question you will need to add and image from a url.
+Heres a cute Baby Yoda you can use.
+
+<img src="https://i.insider.com/5e32f2a324306a19834af322?width=1800&format=jpeg&auto=webp" width="25%">
+
+URL: "https://i.insider.com/5e32f2a324306a19834af322?width=1800&format=jpeg&auto=webp"
 
 
 
